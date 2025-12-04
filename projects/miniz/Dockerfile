@@ -19,7 +19,7 @@ FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && \
     apt-get install -y cmake
 
-RUN git clone --depth 1 https://github.com/richgel999/miniz.git
+RUN git clone --depth 1 https://github.com/RLYY285/miniz.git
 
 WORKDIR miniz
 COPY build.sh $SRC/
