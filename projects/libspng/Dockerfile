@@ -20,7 +20,7 @@ FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && \
     apt-get install -y wget tar cmake
 
-RUN git clone --depth 1 https://github.com/randy408/libspng.git
+RUN git clone --depth 1 https://github.com/RLYY285/libspng.git
 RUN git clone --depth 1 https://github.com/google/fuzzer-test-suite
 RUN git clone https://github.com/madler/zlib $SRC/zlib
 
